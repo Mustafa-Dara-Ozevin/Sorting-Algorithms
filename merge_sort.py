@@ -25,8 +25,8 @@ def merge_sort(array):
             k += 1
             j += 1
         
- 
+""" 
 
 test_array = [20, 77, 14, 7, 22, 31, 96, 8, 1, 9, 35,67,5,76,2,6,56,37,12,66,47,3,4]
 merge_sort(test_array)
-print(test_array)
+print(test_array)"""

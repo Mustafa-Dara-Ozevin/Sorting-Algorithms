@@ -6,7 +6,7 @@ def selection_sort(array):
                 min_index = j
         
         array[i],array[min_index] = array[min_index],array[i]
-
+"""
 test_array = [8,2,5,1,6,3,9,15,0,32,1]
 selection_sort(test_array)
-print(test_array)
+print(test_array)"""

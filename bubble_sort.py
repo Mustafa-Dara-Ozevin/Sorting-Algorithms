@@ -11,7 +11,6 @@ def bubble_sort_cut_extra_loops(array):
     has_swapped = True
     while has_swapped:
         has_swapped = False
-        print(array)
         for i in range(len(array)-1):
             if array[i] > array[i+1]:
                 array[i], array[i+1] = array[i+1], array[i]
@@ -31,9 +30,9 @@ def bubble_sort_optimized(array):
         iter_count += 1
     return iter_count
 
-test_array = [20, 77, 14, 7, 22, 31, 96, 8, 1, 9, 35,67,5,76,2,6,56,37,12,66,47,3,4]
+#test_array = [20, 77, 14, 7, 22, 31, 96, 8, 1, 9, 35,67,5,76,2,6,56,37,12,66,47,3,4]
 
 #bubble_sort_unoptimized(test_array)
 #bubble_sort_cut_extra_loops(test_array)
 #bubble_sort_optimized(test_array)
-print(test_array)
+#print(test_array)

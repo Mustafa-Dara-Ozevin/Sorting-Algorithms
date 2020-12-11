@@ -13,9 +13,10 @@ def shell_sort(array):
 
             array[j] = temp
         gap //= 2
-
+"""
 test_array = [20, 77, 14, 7, 22, 31, 96, 8, 1, 9, 35,67,5,76,2,6,56,37,12,66,47,3,4]
 print(f'array before sort: {test_array}')
 shell_sort(test_array)
 print(f'array after sort: {test_array}')
 
+"""

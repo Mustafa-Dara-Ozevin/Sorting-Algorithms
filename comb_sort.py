@@ -15,7 +15,7 @@ def comb_sort(array):
             if array[i] > array[i+gap]:
                 array[i],array[i+gap] = array[i+gap],array[i]
                 has_swapped = True
-
+"""
 test_array = [20, 77, 14, 7, 22, 31, 96, 8, 1, 9, 35,67,5,76,2,6,56,37,12,66,47,3,4]
 comb_sort(test_array)
-print(test_array)
+print(test_array)"""

@@ -26,7 +26,7 @@ def quicksort(array, low, high):
         quicksort(array, low, pivot-1)
         quicksort(array, pivot+1, high)
 
-
+"""
 test_array = [377, 3, 9, 6, 76, 8, 1, 2, 5, 27, 7, 4]
 quicksort(test_array, 0, len(test_array)-1)
-print(test_array)
+print(test_array)"""
